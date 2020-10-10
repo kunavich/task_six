@@ -20,13 +20,18 @@ import java.io.IOException;
 public class FileDataAcquirer implements DataAcquirer{
 
     private static final String FILE_NAME = "text.txt";
+    private static int ITERATOR =1;
 
     @Override
     public String getData() throws DataException {
         try {
             BufferedReader reader = new BufferedReader(new FileReader(FILE_NAME));
 
-            String data = (reader.readLine());
+            String data=null;
+            for(int i=0;i<ITERATOR; i++) {
+                data =reader.readLine();
+            }
+            ITERATOR++;
             return data;
         }
         catch (IOException e) {

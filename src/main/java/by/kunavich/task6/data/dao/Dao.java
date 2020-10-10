@@ -1,6 +1,11 @@
 package by.kunavich.task6.data.dao;
 
+import by.kunavich.task6.data.BookField;
+import by.kunavich.task6.data.DataException;
+import by.kunavich.task6.model.Book;
+
 import java.util.List;
+import java.util.Set;
 
 
 public interface Dao<T> {
@@ -9,9 +14,11 @@ public interface Dao<T> {
 
     List<T> getAll();
 
-    void save(T t);
+    void add(T t) throws DataException;
+    void add(List<T> t) throws DataException;
 
-    void update(T t, String[] params);
+    Book findByTag(BookField field, String value);
 
-    void delete(T t);
+    void remove(T t) throws DataException;
+    List<Book> sortByTag(BookField field);
 }

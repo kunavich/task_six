@@ -1,32 +1,41 @@
 package by.kunavich.task6.model;
 
 public class Book {
-    private String name;
+    private String titel;
     private String autor;
-    private String publicher;
+    private String publisher;
     private int length;
 
     public Book()
     {
 
     }
-    public Book(String name ,String autor ,String publicher, int length)
+
+    @Override
+    public String toString() {
+        return "titel: " + titel + "\n" +
+                "autor: " + autor + "\n" +
+                "publisher: " + publisher + "\n" +
+                "length: " + length +"\n";
+    }
+
+    public Book(String titel , String autor , String publisher, int length)
     {
-        this.name= name;
+        this.titel= titel;
         this.autor= autor;
-        this.publicher= publicher;
+        this.publisher= publisher;
         this.length= length;
     }
 
-    public String getName() {
-        return name;
+    public String getTitel() {
+        return titel;
     }
 
     public String getAutor() {
         return autor;
     }
 
-    public int getLength() {
+    public Integer getLength() {
         return length;
     }
 
@@ -38,15 +47,15 @@ public class Book {
         this.length = length;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setTitel(String titel) {
+        this.titel = titel;
     }
 
-    public String getPublicher() {
-        return publicher;
+    public String getPublisher() {
+        return publisher;
     }
 
-    public void setPublicher(String publicher) {
-        this.publicher = publicher;
+    public void setPublisher(String publisher) {
+        this.publisher = publisher;
     }
 }

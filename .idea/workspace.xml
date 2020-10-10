@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,8 +35,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/by/kunavich/task6/data/specification" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="by.kunavich.task6.data.specification" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.kunavich.task6.data.comporator" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lord\IdeaProjects\task_six\src\main\java\by\kunavich\task6\data\specification" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LengthBookSpecificationTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.kunavich.task6.Main" />
       <module name="task_six" />
@@ -49,8 +62,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AuthorBookComporatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_six" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.kunavich.task6.data.comparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.kunavich.task6.data.comparator" />
+      <option name="MAIN_CLASS_NAME" value="by.kunavich.task6.data.comparator.AuthorBookComporatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthBookSpecificationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_six" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.kunavich.task6.data.specification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.kunavich.task6.data.specification" />
+      <option name="MAIN_CLASS_NAME" value="by.kunavich.task6.data.specification.LengthBookSpecificationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LengthBookSpecificationTest" />
+        <item itemvalue="JUnit.AuthorBookComporatorTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -67,29 +112,65 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="317" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1602090597755">
+    <state x="286" y="36" key="#Auto_Import" timestamp="1602275078139">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state x="317" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1024.738@0.0.1024.738" timestamp="1602090597755" />
-    <state width="980" height="177" key="GridCell.Tab.0.bottom" timestamp="1602090305018">
+    <state x="286" y="36" key="#Auto_Import/0.0.1024.738@0.0.1024.738" timestamp="1602275078139" />
+    <state x="92" y="92" width="840" height="554" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602311544769">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state width="980" height="177" key="GridCell.Tab.0.bottom/0.0.1024.738@0.0.1024.738" timestamp="1602090305018" />
-    <state width="980" height="177" key="GridCell.Tab.0.center" timestamp="1602090305018">
+    <state x="92" y="92" width="840" height="554" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1024.738@0.0.1024.738" timestamp="1602311544769" />
+    <state x="317" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1602310348283">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state width="980" height="177" key="GridCell.Tab.0.center/0.0.1024.738@0.0.1024.738" timestamp="1602090305018" />
-    <state width="980" height="177" key="GridCell.Tab.0.left" timestamp="1602090305017">
+    <state x="317" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1024.738@0.0.1024.738" timestamp="1602310348283" />
+    <state x="295" y="249" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1602274631044">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state width="980" height="177" key="GridCell.Tab.0.left/0.0.1024.738@0.0.1024.738" timestamp="1602090305017" />
-    <state width="980" height="177" key="GridCell.Tab.0.right" timestamp="1602090305018">
+    <state x="295" y="249" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1024.738@0.0.1024.738" timestamp="1602274631044" />
+    <state x="291" y="109" key="FileChooserDialogImpl" timestamp="1602274504489">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state width="980" height="177" key="GridCell.Tab.0.right/0.0.1024.738@0.0.1024.738" timestamp="1602090305018" />
+    <state x="291" y="109" key="FileChooserDialogImpl/0.0.1024.738@0.0.1024.738" timestamp="1602274504489" />
+    <state width="980" height="179" key="GridCell.Tab.0.bottom" timestamp="1602311201470">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="179" key="GridCell.Tab.0.bottom/0.0.1024.738@0.0.1024.738" timestamp="1602311201470" />
+    <state width="980" height="179" key="GridCell.Tab.0.center" timestamp="1602311201469">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="179" key="GridCell.Tab.0.center/0.0.1024.738@0.0.1024.738" timestamp="1602311201469" />
+    <state width="980" height="179" key="GridCell.Tab.0.left" timestamp="1602311201469">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="179" key="GridCell.Tab.0.left/0.0.1024.738@0.0.1024.738" timestamp="1602311201469" />
+    <state width="980" height="179" key="GridCell.Tab.0.right" timestamp="1602311201469">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="179" key="GridCell.Tab.0.right/0.0.1024.738@0.0.1024.738" timestamp="1602311201469" />
+    <state width="980" height="221" key="GridCell.Tab.1.bottom" timestamp="1602279685021">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="221" key="GridCell.Tab.1.bottom/0.0.1024.738@0.0.1024.738" timestamp="1602279685021" />
+    <state width="980" height="221" key="GridCell.Tab.1.center" timestamp="1602279685021">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="221" key="GridCell.Tab.1.center/0.0.1024.738@0.0.1024.738" timestamp="1602279685021" />
+    <state width="980" height="221" key="GridCell.Tab.1.left" timestamp="1602279685021">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="221" key="GridCell.Tab.1.left/0.0.1024.738@0.0.1024.738" timestamp="1602279685021" />
+    <state width="980" height="221" key="GridCell.Tab.1.right" timestamp="1602279685021">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="221" key="GridCell.Tab.1.right/0.0.1024.738@0.0.1024.738" timestamp="1602279685021" />
     <state x="42" y="22" key="Maven.ArtifactSearchDialog" timestamp="1602089554597">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
     <state x="42" y="22" key="Maven.ArtifactSearchDialog/0.0.1024.738@0.0.1024.738" timestamp="1602089554597" />
+    <state x="168" y="159" key="run.anything.popup" timestamp="1602278301333">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="168" y="159" key="run.anything.popup/0.0.1024.738@0.0.1024.738" timestamp="1602278301333" />
   </component>
 </project>

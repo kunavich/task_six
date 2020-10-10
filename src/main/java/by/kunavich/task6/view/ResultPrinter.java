@@ -6,12 +6,13 @@
 package by.kunavich.task6.view;
 
 
+import by.kunavich.task6.model.Book;
 
 /**
  *
  * @author Lord
  */
 public interface ResultPrinter {
-    void printResult(String str);
+    void printResult(Book book);
     
 }

@@ -6,6 +6,7 @@
 package by.kunavich.task6.view;
 
 
+import by.kunavich.task6.model.Book;
 
 /**
  *
@@ -14,8 +15,8 @@ package by.kunavich.task6.view;
 public class ConcoleResultPrinter implements ResultPrinter{
 
     @Override
-    public void printResult(String str) {
-        System.out.println("Processed line : "+ str);
+    public void printResult(Book book) {
+        System.out.println(book.toString());
 
     }
 }
